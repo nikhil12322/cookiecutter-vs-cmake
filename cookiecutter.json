@@ -1,3 +1,5 @@
 {
-    
+    "project_name": "CMakeProject",
+    "__project_cmake_name": "{{ cookiecutter.project_name|replace(' ', '' }}",
+    "same_dir": false
 }
