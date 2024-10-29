@@ -16,7 +16,7 @@ project ("{{ cookiecutter.__solution_cmake_name }}")
 add_subdirectory ("{{ cookiecutter.__project_cmake_name }}")
 {% else %}
 # Add source to this project's executable.
-add_executable (CMakeProject2 "CMakeProject2.cpp" "CMakeProject2.h")
+add_executable (CMakeProject2 "{{ cookiecutter.__project_cmake_name }}.cpp" "{{ cookiecutter.__project_cmake_name }}.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CMakeProject2 PROPERTY CXX_STANDARD 20)
