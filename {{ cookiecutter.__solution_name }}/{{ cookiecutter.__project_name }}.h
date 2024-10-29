@@ -1,4 +1,4 @@
-// {{ cookiecutter.__project_cmake_name }}.h : Include file for standard system include files,
+// {{ cookiecutter.__project_name }}.h : Include file for standard system include files,
 // or project specific include files.
 
 #pragma once
