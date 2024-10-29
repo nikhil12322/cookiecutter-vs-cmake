@@ -10,7 +10,7 @@ Install `cookiecutter` command line: `pip install cookiecutter`
 
 Run `cookiecutter https://github.com/nikhil12322/cookiecutter-vs-cmake`, or if you already ran it: `cookiecutter cookiecutter-vs-cmake`
 
-`project_name` is the name of the project. `same_directories` is to specify whether to place the project and solution in the same directory.
+`project_name` is the name of the project. `solution_name` is the name of the solution. `same_directories` is to specify whether to place the project and solution in the same directory.
 
 # Licence
 
